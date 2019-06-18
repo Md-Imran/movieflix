@@ -1,0 +1,124 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Movieflix</string>
+    <string name="title_activity_registration">RegistrationActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!---->
+    <string name="what_next">See What\'s Next.</string>
+    <string name="app_moto">Watch Anywhere.Cancel Anywhere.</string>
+    <string name="join_now">Join Free For Now</string>
+
+
+    <!--Registration-->
+    <string name="user_name">User Name</string>
+    <string name="name">Name</string>
+    <string name="mobile_number">Phone Number</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="help">Help</string>
+
+    <string name="create_an_account">Create An Account</string>
+
+    <string name="plus">+</string>
+
+    <!--navigation menu-->
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="coming_soon">Coming Soon</string>
+    <string name="download">Download</string>
+    <string name="trailer">Trailer</string>
+    <string name="more">More</string>
+
+    <!--Detail Page-->
+    <string name="description">A love story doomed by the depths of the Atlantic Ocean. Rose Calvert,
+        now 101 reminiscences her experience of  the Titanic,
+        to American oceanic explorers, and her emotional
+        connection with another passenger, Jack.</string>
+
+    <string name="starring_by">Leonardo DiCaprio, Kate Winslet.</string>
+    <string name="starring">Starring: </string>
+    <string name="director">Director:</string>
+    <string name="director_by">James Cameron</string>
+    <string name="my_list">My List</string>
+    <string name="rate">Rate</string>
+    <string name="share">Share</string>
+
+
+    <plurals name="message">
+        <item quantity="one">+</item>
+    </plurals>
+
+    <string name="label_loading">Loading...</string>
+    <string name="content_coming_date">Coming September 28</string>
+    <string name="upcoming_movie_title">Mission Impossible–Fallout</string>
+    <string name="upcoming_movie_description">Impossible film began prior to the release of
+        Rogue Nation in 2015. The film was officially announced in November 2015,
+        with McQuarrie confirming his return as writer and director,
+        as well as producer alongside Cruise,
+        the sixth collaboration between the pair.</string>
+
+    <string name="directed_by">James Cameroon</string>
+
+
+    <!--More-->
+
+    <string name="app_setting">App Settings</string>
+    <string name="account">Account</string>
+    <string name="sign_out">Sign Out</string>
+
+
+    <!--exo player-->
+
+    <string name="unexpected_intent_action">Unexpected intent action: <xliff:g id="action">%1$s</xliff:g></string>
+
+    <string name="error_generic">Playback failed</string>
+
+    <string name="error_unrecognized_abr_algorithm">Unrecognized ABR algorithm</string>
+
+    <string name="error_drm_not_supported">Protected content not supported on API levels below 18</string>
+
+    <string name="error_drm_unsupported_scheme">This device does not support the required DRM scheme</string>
+
+    <string name="error_drm_unknown">An unknown DRM error occurred</string>
+
+    <string name="error_no_decoder">This device does not provide a decoder for <xliff:g id="mime_type">%1$s</xliff:g></string>
+
+    <string name="error_no_secure_decoder">This device does not provide a secure decoder for <xliff:g id="mime_type">%1$s</xliff:g></string>
+
+    <string name="error_querying_decoders">Unable to query device decoders</string>
+
+    <string name="error_instantiating_decoder">Unable to instantiate decoder <xliff:g id="decoder_name">%1$s</xliff:g></string>
+
+    <string name="error_unsupported_video">Media includes video tracks, but none are playable by this device</string>
+
+    <string name="error_unsupported_audio">Media includes audio tracks, but none are playable by this device</string>
+
+    <string name="storage_permission_denied">Permission to access storage was denied</string>
+
+    <string name="sample_list_load_error">One or more sample lists failed to load</string>
+
+    <string name="ima_not_loaded">Playing sample without ads, as the IMA extension was not loaded</string>
+
+    <string name="download_start_error">Failed to start download</string>
+
+    <string name="download_playlist_unsupported">This demo app does not support downloading playlists</string>
+
+    <string name="download_drm_unsupported">This demo app does not support downloading protected content</string>
+
+    <string name="download_scheme_unsupported">This demo app only supports downloading http streams</string>
+
+    <string name="download_ads_unsupported">IMA does not support offline ads</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="sign_up_now">Sign Up Now</string>
+    <string name="get_start">Get Start</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_your_email_or_password">Forgot your email or password ?</string>
+    <string name="new_to_movieflix_sign_up_now">New To MovieFlix? Sign Up now.</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="about_us">About Us</string>
+
+
+</resources>

@@ -1,0 +1,128 @@
+<resources>
+
+    <!--&lt;!&ndash; Base application theme. &ndash;&gt;
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>-->
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:itemTextAppearance">@style/myCustomMenuTextApearance</item>
+        <!-- <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>-->
+    </style>
+
+    <!--<item name="android:textSize">32sp</item>
+       <item name="android:textStyle">bold</item> -->
+
+    <style name="TextAppearence.App.TextInputLayout" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">13sp</item>
+        <item name="colorControlHighlight">@color/white</item>
+
+    </style>
+
+    <style name="TextInputLayoutThem" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorControlNormal">@color/sign_in_text_color</item>
+        <item name="colorControlActivated">@color/app_background</item>
+
+    </style>
+
+    <style name="EditTextSearchThem" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorControlNormal">@color/edt_search_color</item>
+        <item name="colorControlActivated">@color/edt_search_color</item>
+
+    </style>
+
+
+    <style name="myCustomMenuTextApearance" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">@color/red</item>
+        <item name="actionMenuTextColor">@color/colorPrimaryDark</item>
+        <item name="android:actionMenuTextColor">@color/colorPrimaryDark</item>
+
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">28sp</item>
+        <item name="actionMenuTextColor">@color/red</item>
+        <item name="android:actionMenuTextColor">@color/light_red</item>
+        <item name=" android:textStyle">bold</item>
+    </style>
+
+
+    <style name="ToolbarTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textSize">18sp</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/light_red</item>
+        <item name="colorAccent">@color/light_red</item>
+        <item name="android:layout_marginStart">10dp</item>
+    </style>
+
+    <style name="ButtonOrange" parent="@android:style/Widget.Button">
+        <item name="android:background">@color/button_orange</item>
+    </style>
+
+    <style name="ButtonJoin" parent="@android:style/Widget.Button">
+        <item name="android:background">@color/red</item>
+    </style>
+
+    <style name="CustomButtonTheme" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#b2dfdb</item>
+        <item name="colorButtonNormal">#009688</item>
+    </style>
+
+    <style name="LoginSignUpInput">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:background">@color/loginSignup2InputBg</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textCursorDrawable">@drawable/loginsignup_color_cursor</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="CountyCode">
+        <item name="android:layout_weight">.6</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:background">@color/loginSignup2InputBg</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textCursorDrawable">@drawable/loginsignup_color_cursor</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="PhoneNumber">
+        <item name="android:layout_weight">2.4</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:background">@color/loginSignup2InputBg</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textCursorDrawable">@drawable/loginsignup_color_cursor</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="ToolbarColoredBackArrow" parent="AppTheme">
+        <item name="android:textColorSecondary">#cac4c4</item>
+    </style>
+
+</resources>

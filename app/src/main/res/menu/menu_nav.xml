@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home"
+        android:state_checked="true"
+        android:color="@color/white"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search" />
+
+    <item
+        android:id="@+id/navigation_comming_soon"
+        android:icon="@drawable/ic_comming_soon"
+        android:title="@string/coming_soon" />
+
+    <item
+        android:id="@+id/navigation_trailer"
+        android:icon="@drawable/ic_trailer"
+        android:title="@string/trailer" />
+
+
+    <item
+        android:id="@+id/navigation_more"
+        android:icon="@drawable/ic_menu"
+        android:title="@string/more" />
+
+
+</menu>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/app_background"
+    android:orientation="vertical"
+    android:padding="0dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_background"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imv_upcoming_movie"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_trailer_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/upcoming_movie_title"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_directed_by"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/directed_by"
+                android:textColor="@color/up_coming_text_color" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/border_color" />
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

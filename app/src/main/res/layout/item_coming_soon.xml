@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/app_background"
+    android:orientation="vertical"
+    android:padding="0dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_background"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imv_upcoming_movie"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <!-- <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginEnd="5dp"
+             android:layout_marginStart="5dp"
+             android:layout_marginTop="5dp"
+             android:weightSum="3">
+
+             <TextView
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="2" />
+
+             <LinearLayout
+                 android:layout_width="0dp"
+                 android:layout_height="20dp"
+                 android:layout_weight="1">
+
+                 <Button
+                     android:layout_width="0dp"
+                     android:layout_height="20dp"
+                     android:layout_weight=".15"
+                     android:background="@drawable/ic_plus" />
+
+                 <TextView
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_marginStart="5dp"
+                     android:layout_weight=".8"
+                     android:text="@string/my_list"
+                     android:textColor="@color/white" />
+
+
+             </LinearLayout>
+
+
+
+
+         </LinearLayout>-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="10dp"
+                android:text="@string/content_coming_date"
+                android:textColor="@color/up_coming_text_color" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentEnd="true"
+                android:background="@color/my_list_bf_color"
+                android:gravity="center"
+                android:weightSum=".5">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight=".1"
+                    android:background="@drawable/ic_plus_symbol"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="4dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".4"
+                    android:gravity="center"
+                    android:text="@string/my_list"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_upcoming_movie_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/upcoming_movie_title"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/upcoming_movie_description"
+                android:textColor="@color/up_coming_text_color" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/border_color" />
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
